@@ -18,6 +18,8 @@ public class Rank extends EntityInternal<Rank> implements MPerm.MPermable
 	public Rank load(Rank that)
 	{
 		this.name = that.name;
+		this.priority = that.priority;
+		this.prefix = that.prefix;
 
 		return this;
 	}
